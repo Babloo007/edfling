@@ -1,0 +1,109 @@
+.expertCard{
+    text-decoration: none;
+    color: grey;
+    min-width: 350px;
+    max-width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    margin: 1px;
+    line-height: 3;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.expertCard:hover{
+    background-color: antiquewhite;
+}
+
+.expertCardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.expertCardContainer p{
+    font-size: 15px;
+}
+
+.expertCard a{
+    text-decoration: none;
+    color: grey;
+
+}
+
+.expertImage{
+    background-image: url("http://4.bp.blogspot.com/-tKHyh7sDP0s/T_xj5oV6-tI/AAAAAAAACz4/Ylps7Lrwlik/s1600/Sachin.jpg");
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+    float: left;
+    border-radius: 100px;
+    margin-right: 20px;
+}
+
+.expertName{
+    font-size: 20px;
+}
+
+.listOfExperts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.expertCard button{
+    width: 32%;
+    margin: 0;
+    height: 40px;
+    margin: 1px;
+    background-color: #fff;
+}
+.expert-chat:hover{
+    background-color: #F42053;
+    color: white;
+}
+.expert-message:hover{
+    background-color: grey;
+    color: white;
+}
+.expert-appointment:hover{
+    background-color: #FB9752;
+    color: white;
+}
+
+.expertListHeading{
+    font-size: 40px;
+    color: #F42053;
+    text-align: center;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+@media(max-width: 1070px){
+    .expertCard{
+        max-width: 60%;
+    }
+}
+
+@media(max-width: 881px){
+    .expertCard{
+        max-width: 90%;
+    }
+}
+
+@media(max-width: 500px){
+    .expertCard{
+        min-width: inherit;
+    }
+}
+
+@media(max-width: 436px){
+    .expertName{
+        font-size: 15px;
+    }
+    
+    .expertCard{
+        margin: 10px;
+        padding: 20px;
+        font-size: 13px;
+    }
+}
