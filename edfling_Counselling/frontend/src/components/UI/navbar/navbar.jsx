@@ -25,7 +25,7 @@ function Navbar(){
                 <img className="logo" src={logo} alt="Edfling" />
                 <ul className="navbar_links">
                     <a href="/experts"><li>Experts</li></a>
-                    <a href="/"><li>Blog</li></a>
+                    <a href="/blog"><li>Blog</li></a>
                     <a href="/"><li>Founders Program</li></a>
                     <a href="/"><li>For Buisness</li></a>
                 </ul>

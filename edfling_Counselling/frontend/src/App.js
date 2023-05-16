@@ -5,7 +5,7 @@ import Expert from './components/UI/expertsList/expertList.jsx';
 import Signup from './components/UI/signup/signup.jsx';
 import Home from './components/UI/Home/home.jsx';
 import IdExpert from "./components/UI/ID_Expert/idExpert.jsx";
-
+import Blog from "./components/UI/blog/blog.jsx";
 import './app.css';
 
 
@@ -18,6 +18,7 @@ function App() {
           <Route path="/" element={ <Home /> }/>
           <Route path="/experts" element={ <Expert /> } />
           <Route path="/expert/:id" element={ <IdExpert />} />
+          <Route path="/blog" element = {< Blog />} />
         </Routes>
       </BrowserRouter>
     </div>
