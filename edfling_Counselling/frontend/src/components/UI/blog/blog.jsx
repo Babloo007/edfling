@@ -90,107 +90,102 @@ export default function Blog() {
         </div>
 
         {/* second right */}
-        <div style={{ display: 'flex', flexDirection
+        <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '20px' }}>
+          <div>
+            <img src={SourceImg} alt="" style={{ width: '100%', height: 'auto' }} />
+          </div>
+          <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '10px' }}>
+            {/* div for hashTags */}
+            <div>
+              <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
+                <a title="LetsTalk" href="/blog"><u>#LetsTalk</u></a>
+              </span>
+              <span>|</span>
+              <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
+                <a title="YouAreNotAlone" href="/blog"><u>#YouAreNotAlone</u></a>
+              </span>
+            </div>
 
-: 'row', marginBottom: '20px' }}>
-<div>
-<img src={SourceImg} alt="" style={{ width: '100%', height: 'auto' }} />
-</div>
-      <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '10px' }}>
-        {/* div for hashTags */}
-        <div>
-          <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
-            <a title="LetsTalk" href="/blog"><u>#LetsTalk</u></a>
-          </span>
-          <span>|</span>
-          <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
-            <a title="YouAreNotAlone" href="/blog"><u>#YouAreNotAlone</u></a>
-          </span>
+            {/*  div for white space */}
+            <div style={{ paddingRight: '5px', display: 'flex', justifyContent: 'flex-end' }}>
+              <span>5 Minutes</span>
+            </div>
+            <div>
+              <h5>
+                <a href="/blog" style={{ textDecoration: 'none' }}>
+                  {" "}
+                  Smrithi’s Story of Finding Strength In Vulnerability from Therapy
+                </a>
+              </h5>
+            </div>
+          </div>
         </div>
 
-        {/*  div for white space */}
-        <div style={{ paddingRight: '5px', display: 'flex', justifyContent: 'flex-end' }}>
-          <span>5 Minutes</span>
-        </div>
-        <div>
-          <h5>
-            <a href="/blog" style={{ textDecoration: 'none' }}>
-              {" "}
-              Smrithi’s Story of Finding Strength In Vulnerability from Therapy
-            </a>
-          </h5>
-        </div>
-      </div>
-    </div>
+        {/* third right */}
+        <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '20px' }}>
+          <div>
+            <img src={SourceImg} alt="" style={{ width: '100%', height: 'auto' }} />
+          </div>
 
-    {/* third right */}
-    <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '20px' }}>
-      <div>
-        <img src={SourceImg} alt="" style={{ width: '100%', height: 'auto' }} />
-      </div>
+          <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '10px' }}>
+            {/* div for hashTags */}
+            <div>
+              <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
+                <a title="LetsTalk" href="/blog"><u>#LetsTalk</u></a>
+              </span>
+              <span>|</span>
+              <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
+                <a title="YouAreNotAlone" href="/blog"><u>#YouAreNotAlone</u></a>
+              </span>
+            </div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '10px' }}>
-        {/* div for hashTags */}
-        <div>
-          <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
-            <a title="LetsTalk" href="/blog"><u>#LetsTalk</u></a>
-          </span>
-          <span>|</span>
-          <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
-            <a title="YouAreNotAlone" href="/blog"><u>#YouAreNotAlone</u></a>
-          </span>
+            {/*  div for white space */}
+            <div style={{ paddingRight: '5px', display: 'flex', justifyContent: 'flex-end' }}>
+              <span>5 Minutes</span>
+            </div>
+            <div>
+              <h5>
+                <a href="/blog" style={{ textDecoration: 'none' }}>
+                  {" "}
+                  Smrithi’s Story of Finding Strength In Vulnerability from Therapy
+                </a>
+              </h5>
+            </div>
+          </div>
         </div>
 
-        {/*  div for white space */}
-        <div style={{ paddingRight: '5px', display: 'flex', justifyContent: 'flex-end' }}>
-          <span>5 Minutes</span>
-        </div>
-        <div>
-          <h5>
-            <a href="/blog" style={{ textDecoration: 'none' }}>
-              {" "}
-              Smrithi’s Story of Finding Strength In Vulnerability from Therapy
-            </a>
-          </h5>
-        </div>
-      </div>
-    </div>
+        {/* fourth right */}
+        <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '20px' }}>
+          <div>
+            <img src={SourceImg} alt="" style={{ width: '100%', height: 'auto' }} />
+          </div>
 
-    {/* fourth right */}
-    <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '20px' }}>
-      <div>
-        <img src={SourceImg} alt="" style={{ width: '100%', height: 'auto' }} />
-      </div>
-
-      <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '10px' }}>
-        {/* div for hashTags */}
-        <div>
-          <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
-            <a title="LetsTalk" href="/blog"><u>#LetsTalk</u></a>
-          </span>
-          <span>|</span>
-          <span style={{ marginLeft: "5px",
-
-color: "#444", marginTop: "0px" }}>
-<a title="YouAreNotAlone" href="/blog"><u>#YouAreNotAlone</u></a>
-</span>
-</div>
-        {/*  div for white space */}
-        <div style={{ paddingRight: '5px', display: 'flex', justifyContent: 'flex-end' }}>
-          <span>5 Minutes</span>
-        </div>
-        <div>
-          <h5>
-            <a href="/blog" style={{ textDecoration: 'none' }}>
-              {" "}
-              Smrithi’s Story of Finding Strength In Vulnerability from Therapy
-            </a>
-          </h5>
+          <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '10px' }}>
+            {/* div for hashTags */}
+            <div>
+              <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
+                <a title="LetsTalk" href="/blog"><u>#LetsTalk</u></a>
+              </span>
+              <span>|</span>
+              <span style={{ marginLeft: "5px", color: "#444", marginTop: "0px" }}>
+                <a title="YouAreNotAlone" href="/blog"><u>#YouAreNotAlone</u></a>
+              </span>
+            </div>
+            {/*  div for white space */}
+            <div style={{ paddingRight: '5px', display: 'flex', justifyContent: 'flex-end' }}>
+              <span>5 Minutes</span>
+            </div>
+            <div>
+              <h5>
+                <a href="/blog" style={{ textDecoration: 'none' }}>
+                  {" "}
+                  Smrithi’s Story of Finding Strength In Vulnerability from Therapy
+                </a>
+              </h5>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-
 );
 }
