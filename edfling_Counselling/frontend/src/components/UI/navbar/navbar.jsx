@@ -40,7 +40,7 @@ function Navbar(){
                 toggleBar==='on' ? <>
                 <div className="menuItem">
                     <a href="/experts">Experts</a>
-                    <a href="/">Blog</a>
+                    <a href="/blog">Blog</a>
                     <a href="/">Founders Program</a>
                     <a href="/">For Buisness</a>
                 </div>
